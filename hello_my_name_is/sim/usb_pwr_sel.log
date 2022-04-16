@@ -1,0 +1,26 @@
+Circuit: * C:\Users\mitch\projects\badge\hello_my_name_is\hello_my_name_is\sim\usb_pwr_sel.asc
+
+Limiting rise time of source v3 to 0.005
+Limiting fall time of source v3 to 0.005
+WARNING: Less than two connections to node 5V.  This node is used by V2.
+WARNING: Less than two connections to node NC_01.  This node is used by D1.
+Instance "m:m2:2": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Apr 16 13:16:31 2022
+Total elapsed time: 0.155 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 22357
+traniter = 22347
+tranpoints = 11041
+accept = 8471
+rejected = 2570
+matrix size = 16
+fillins = 0
+solver = Normal
+Matrix Compiler1: 888 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.14 KB object code size  0.1/0.1/[0.1]
+

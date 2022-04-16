@@ -404,7 +404,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "sch/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -414,6 +414,10 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "059ed59b-d726-4a56-a5ef-300f058105a1",
+      "PAGE2"
     ]
   ],
   "text_variables": {}
