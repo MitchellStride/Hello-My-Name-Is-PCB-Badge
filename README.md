@@ -1,8 +1,9 @@
 # The 'Hello my name is' PCB Badge
 
-![](./hello_my_name_is/img/mockup.PNG)
+![](./hello_my_name_is/img/bot_ren.PNG)
+![](./hello_my_name_is/img/top_ren.PNG)
 
-The **#Badgelife** PCB was created to test some circuits to be used in future art PCBs.
+This **#Badgelife** PCB was created to test some circuits to be used in future art PCBs.
 I also wanted a small project to bring to local hardware meetups.   
 
 Features:
@@ -11,5 +12,3 @@ Features:
 * Raspberry Pi RP2040 uC w/ Dual core ARM Cortex-M0+
 * OLED Screen, RGB LEDs, Buttons
 * SAO Connector!
-
-# WIP
