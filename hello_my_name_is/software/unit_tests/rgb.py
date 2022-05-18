@@ -7,7 +7,7 @@ import rp2
 # Configure the number of WS2812 LEDs.
 NUM_LEDS = 4
 PIN_NUM = 6
-brightness = 0.25
+brightness = 0.1
 
 @rp2.asm_pio(sideset_init=rp2.PIO.OUT_LOW, out_shiftdir=rp2.PIO.SHIFT_LEFT, autopull=True, pull_thresh=24)
 def ws2812():
@@ -89,7 +89,7 @@ BLUE = (0, 0, 255)
 PURPLE = (180, 0, 255)
 WHITE = (255, 255, 255)
 COLORS = (BLACK, RED, YELLOW, GREEN, CYAN, BLUE, PURPLE, WHITE)
-
+'''
 print("fills")
 for color in COLORS:       
     pixels_fill(color)
@@ -103,8 +103,12 @@ for color in COLORS:
 print("rainbow")
 rainbow_cycle(0)
 
+'''
+print('Green Test')
 pixels_fill(GREEN)
-pixels_show()
+
 
 while True:
-    pass
+    pixels_show()
+    print('Send')
+    time.sleep(1)
