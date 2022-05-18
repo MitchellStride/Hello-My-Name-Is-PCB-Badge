@@ -102,3 +102,9 @@ for color in COLORS:
 
 print("rainbow")
 rainbow_cycle(0)
+
+pixels_fill(GREEN)
+pixels_show()
+
+while True:
+    pass
