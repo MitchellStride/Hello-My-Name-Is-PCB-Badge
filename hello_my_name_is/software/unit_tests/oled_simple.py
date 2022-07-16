@@ -11,5 +11,6 @@ i2c0 = machine.I2C(0, sda=machine.Pin(16), scl=machine.Pin(17))
 oled = ssd1306.SSD1306_I2C(width=128, height=64, i2c=i2c0, addr=0x3C)
 
 oled.fill(0)
-oled.text("Mitchell Stride", 0, 0)
+oled.text("#badgelife", 25, 25)
 oled.show()
+

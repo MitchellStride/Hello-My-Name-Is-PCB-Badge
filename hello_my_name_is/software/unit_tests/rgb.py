@@ -1,3 +1,4 @@
+#RGBs pwred by 3.3v failed experiment here on this badge
 # Example using PIO to drive a set of WS2812 LEDs.
 
 import array, time

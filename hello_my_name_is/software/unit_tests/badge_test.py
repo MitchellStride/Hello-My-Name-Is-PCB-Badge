@@ -32,7 +32,6 @@ def button_test():
             print("You pressed DOWN Button")
         utime.sleep(0.1)
 
-
 def button_UP_pressed(pin):   #ISR
     global button_c, prev_button_press
     new_time = utime.ticks_ms()
@@ -58,7 +57,6 @@ def unit_test():
     #button_test()
     #button_test_irq()
     read_temp()
-
 
 #---------------------------MAIN-----------------------------------
 def main():

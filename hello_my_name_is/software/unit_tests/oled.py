@@ -31,6 +31,8 @@ oled.blit(fb, 96, 0)
 # Add some text
 oled.text("Raspberry Pi",5,5)
 oled.text("Pico",5,15)
+oled.text("#badgelife", 25, 3 5)
+oled.text("Mitch Stride", 15, 55)
 
 # Finally update
 oled.show()
