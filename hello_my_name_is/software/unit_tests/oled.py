@@ -3,13 +3,20 @@
 # Display Image & text on I2C driven ssd1306 OLED display
 from machine import Pin, I2C
 from ssd1306 import SSD1306_I2C
+import utime
 import framebuf
 
 #N096-2864KSWEG01-H30
 WIDTH = 128 # oled display width
 HEIGHT = 64 # oled display height
 
-i2c = I2C(0) # Init I2C using I2C0 defaults,
+oled_rst = machine.Pin(15, machine.Pin.OUT)
+oled_rst.low()
+utime.sleep(0.1)
+oled_rst.high()
+i2c = machine.I2C(0, sda=machine.Pin(16), scl=machine.Pin(17))
+
+#i2c = I2C(0) # Init I2C using I2C0 defaults,
 #SCL=Pin(GP9), SDA=Pin(GP8), freq=400000
 print("I2C Address : "+hex(i2c.scan()[0]).upper()) # Display device address
 print("I2C Configuration: "+str(i2c)) # Display I2C config
@@ -31,7 +38,7 @@ oled.blit(fb, 96, 0)
 # Add some text
 oled.text("Raspberry Pi",5,5)
 oled.text("Pico",5,15)
-oled.text("#badgelife", 25, 3 5)
+oled.text("#badgelife", 25, 35)
 oled.text("Mitch Stride", 15, 55)
 
 # Finally update
