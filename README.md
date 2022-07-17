@@ -2,10 +2,8 @@
 This **#Badgelife** PCB was created to test some circuits to be used in future art PCBs.
 I also wanted a small project to bring to local hardware meetups. Partial assembly done at jlc  
 
-![](./hello_my_name_is/img/temp2.gif)
-*missing front buttons on this test PCB
 ![](./hello_my_name_is/img/badge3.png)
-
+*missing front buttons on this test PCB
 ## Features:
 * Powered by x2 AA Batteries
 * Highly compatible with JLCPCB's basic SMT parts
@@ -35,3 +33,5 @@ I rushed this project a lot. Schematic was done in a few nights, layout and rout
 ![](./hello_my_name_is/img/bot_ren.PNG)
 ![](./hello_my_name_is/img/top_ren.PNG)
 ![](./hello_my_name_is/img/temp.gif)
+
+![](./hello_my_name_is/img/temp2.gif)
