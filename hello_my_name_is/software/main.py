@@ -10,9 +10,7 @@ BUGS:
 Program Description:
 - Show Name > Buttons cycle to info page
 - Info Page > Hometown [NL Pixel Map?], University, Job, Hobbies
-
 '''
-
 
 import machine
 import utime
@@ -79,7 +77,7 @@ def oled_pixel_check():
     
 def oled_setup():
     oled_pixel_check()
-    for i in range(10):
+    for i in range(8):
         oled.fill(0)   #clears screen
         oled.text("Hello my name is", 0, 0)
         oled.text("PCB badge", 0, 10)
@@ -105,6 +103,7 @@ def state_machina():
             state = 0
             state_flag = 1
         
+        #Screen SM------
         if state_flag == 1:
             prev_time = utime.ticks_ms()
             state_flag = 0
@@ -146,10 +145,10 @@ def state_machina():
                 oled.text("- Video Games", 0, 40)
                 oled.text("- Wine Brewing", 0, 50)
                 oled.show()
-            
+
 #---------------------------MAIN-----------------------------------
 def main():
-    utime.sleep(1)   #wait for serial terminal
+    utime.sleep(0.5)   #wait for serial terminal
     print("'Hello my name is' PCB badge SW")
     button_SW4_UP.irq(trigger=machine.Pin.IRQ_FALLING,  handler=button_UP_pressed)
     button_SW5_DOWN.irq(trigger=machine.Pin.IRQ_FALLING,  handler=button_DOWN_pressed)

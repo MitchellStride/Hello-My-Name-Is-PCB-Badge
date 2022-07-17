@@ -1,9 +1,10 @@
 # The 'Hello my name is' PCB Badge
-
-![](./hello_my_name_is/img/temp.gif)
-
 This **#Badgelife** PCB was created to test some circuits to be used in future art PCBs.
 I also wanted a small project to bring to local hardware meetups. Partial assembly done at jlc  
+
+![](./hello_my_name_is/img/temp2.gif)
+*missing front buttons on this test PCB
+![](./hello_my_name_is/img/badge3.png)
 
 ## Features:
 * Powered by x2 AA Batteries
@@ -19,8 +20,7 @@ I also wanted a small project to bring to local hardware meetups. Partial assemb
 I rushed this project a lot. Schematic was done in a few nights, layout and routing in a few hours with no review. This PCB has a few mistakes. Not planning on making another board spin but leaving this list here. 
 * I seen someone's design online using a RGB led running at 3.3V (below spec). I tried to replicate it and the LEDs were very flaky and worked intermittently. Experiment failed 😢.
 * AA boost converter not yet tested, just using USB power so far.
-### v2 ToDo
-#### Possible v2 Wishlist [v2 Todo]:
+### Possible v2 Wishlist [v2 Todo]:
 * User led + pwr led 
 * ON OFF silk on switch
 * Buzzer would be fun
@@ -34,3 +34,4 @@ I rushed this project a lot. Schematic was done in a few nights, layout and rout
 
 ![](./hello_my_name_is/img/bot_ren.PNG)
 ![](./hello_my_name_is/img/top_ren.PNG)
+![](./hello_my_name_is/img/temp.gif)
