@@ -12,7 +12,6 @@ I also wanted a small project to bring to local hardware meetups. Partial assemb
 * SAO Connector!
 
 ![](./hello_my_name_is/img/badge.png)
-![](./hello_my_name_is/img/badge2.png)
 
 ## v1 Issues:
 I rushed this project a lot. Schematic was done in a few nights, layout and routing in a few hours with no review. This PCB has a few mistakes. Not planning on making another board spin but leaving this list here. 
