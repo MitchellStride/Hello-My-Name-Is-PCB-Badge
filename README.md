@@ -33,6 +33,5 @@ I rushed this project a lot. Schematic was done in a few nights, layout and rout
 ![](./hello_my_name_is/img/bot_ren.PNG)
 ![](./hello_my_name_is/img/top_ren.PNG)
 
-## Example GIFs
-![](./hello_my_name_is/img/temp.gif)
+## Example GIF ⚡
 ![](./hello_my_name_is/img/temp2.gif)
