@@ -3,7 +3,7 @@ This **#Badgelife** PCB was created to test some circuits to be used in future a
 I also wanted a small project to bring to local hardware meetups. Partial assembly done at jlc  
 
 ![](./hello_my_name_is/img/badge3.png)
-*missing front buttons on this test PCB
+<br/>*missing front buttons on this test PCB
 ## Features:
 * Powered by x2 AA Batteries
 * Highly compatible with JLCPCB's basic SMT parts
