@@ -1,6 +1,6 @@
 # The 'Hello my name is' PCB Badge
 This **#Badgelife** PCB was created to test some circuits to be used in future art PCBs.
-I also wanted a small project to bring to local hardware meetups. Partial assembly done at jlc  
+I also wanted a small project to bring to local hardware meetups. Partial assembly done at jlc.
 
 ![](./hello_my_name_is/img/badge3.png)
 <br/>*missing front buttons on this test PCB
