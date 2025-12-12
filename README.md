@@ -8,8 +8,9 @@
 This **#Badgelife** PCB was created to test some circuits for future art PCBs.  
 It also served as a small project to bring to local hardware meetups. Partial assembly was done at JLCPCB.
 
-![Badge Front](./hello_my_name_is/img/badge3.png)  
-*Missing front buttons on this test PCB*
+
+## ⚡ Example GIF
+![Example GIF](./hello_my_name_is/img/temp2.gif)
 
 ---
 
@@ -59,5 +60,5 @@ I rushed this project a lot. The schematic was done in a few nights, layout and 
 
 ---
 
-## ⚡ Example GIF
-![Example GIF](./hello_my_name_is/img/temp2.gif)
+![Badge Front](./hello_my_name_is/img/badge3.png)  
+*Missing front buttons on this test PCB*
